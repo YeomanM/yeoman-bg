@@ -3,3 +3,8 @@ mybatis:
     type-aliases-package: com.example.yeomanbg
     configuration:
       map-underscore-to-camel-case: true
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/

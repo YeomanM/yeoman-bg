@@ -18,7 +18,7 @@ public class TestController {
         return service.test(id);
     }
 
-    @GetMapping
+    @GetMapping("/area")
     public BaseResponse getArea() {
         return service.testSecond();
     }
