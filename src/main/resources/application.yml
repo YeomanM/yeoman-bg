@@ -8,3 +8,7 @@ spring:
     view:
       suffix: .jsp
       prefix: /WEB-INF/jsp/
+logging:
+  config: classpath:logback.xml
+  level:
+    root: info
