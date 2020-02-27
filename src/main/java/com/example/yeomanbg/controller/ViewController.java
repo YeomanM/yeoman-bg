@@ -3,13 +3,9 @@ package com.example.yeomanbg.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+
 @Controller
 public class ViewController {
-
-    @GetMapping
-    public String login() {
-        return "login";
-    }
 
     @GetMapping("login")
     public String loginName() {
@@ -21,5 +17,19 @@ public class ViewController {
         return "login";
     }
 
+    @GetMapping("/register")
+    public String register() {
+        return "register";
+    }
+
+    @GetMapping("/main")
+    public String main() {
+        return "main";
+    }
+
+    @GetMapping("/mainFrame")
+    public String mainFrame() {
+        return "mainFrame";
+    }
 
 }

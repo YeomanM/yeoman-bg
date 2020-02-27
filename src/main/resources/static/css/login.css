@@ -1,0 +1,90 @@
+.bg {
+    height: auto;
+    background: url("../img/login-background.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(255,255,255,0.95);
+}
+
+.main {
+    height: 50%;
+    margin-top: 12%;
+}
+
+.main > .layui-row,.footer-outer {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.main > div > div {
+    padding: 5px;
+}
+
+.footer {
+    width: 100%;
+    border-top: solid 1px rgba(255,255,255,.3);
+    /*background-color: white;*/
+    font-size: 14px;
+    /*text-align: center;*/
+}
+
+.layui-form h3{
+    float: left;
+    display: block;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.layui-form h4 {
+    float: right;
+    margin-right: 13%;
+}
+
+#loginDiv {
+    background-color: rgba(255,255,255,0.3);
+    /*height: 100%;*/
+    border-radius: 5px;
+    text-align: center;
+}
+
+#loginDiv > form > div {
+    margin: 0 auto;
+}
+
+/* 小人部分 */
+.login-input {
+    position: relative;
+}
+
+.verifyCode input{
+    width: 45%;
+}
+
+#loginDiv .layui-form-item {
+    margin-bottom: 15px;
+}
+
+.layui-form-item .layui-inline {
+    width: 80%;
+}
+
+.layui-form-item .layui-inline .layui-input-inline {
+    width: 100%;
+}
+
+.login-input .sub-icon {
+    margin-top: 10px;
+    position: absolute;
+    right: 20px;
+    color: black;
+}
+
+.m-b {
+    margin-bottom: 15px;
+}
+
+.p-b {
+    padding-bottom: 15px;
+}

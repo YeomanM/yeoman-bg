@@ -1,0 +1,30 @@
+.bg {
+    height: auto;
+    background: url("../img/login-background.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(255,255,255,0.95);
+}
+
+#registerDiv {
+    background-color: rgba(255,255,255,0.35);
+    margin: 5% 30%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0 20px 0;
+}
+
+
+.layui-form-item .layui-inline {
+    width: 80%;
+}
+
+.layui-form-item .layui-inline .layui-input-inline {
+    width: 60%;
+}
+
+.layui-form-item .layui-inline .layui-form-label {
+    color:black;
+}
